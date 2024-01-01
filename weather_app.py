@@ -7,7 +7,7 @@ import os
 api_key = os.getenv("weatherapp_api")
 
 
-#main
+#main program
 area = input("Enter the location:")
 url = f"https://api.openweathermap.org/data/2.5/weather?&q={area}&units=metric&appid={api_key}"
 weather_data = requests.get(url)
