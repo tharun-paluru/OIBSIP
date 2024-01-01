@@ -5,8 +5,7 @@ import json
 import os
 
 api_key = os.getenv("weatherapp_api")
-#api_key="721c549afe2421a27447e42874bc9cf9"
-print(api_key)
+
 
 #main
 area = input("Enter the location:")
